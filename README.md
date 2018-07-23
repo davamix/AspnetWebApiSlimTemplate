@@ -2,7 +2,7 @@
 
 Template for ASP.NET Core project based on built-in web template.
 
-This template create a solution whith two separated projects:
+This template create a solution with two separated projects:
 - The *.Bootstrap* project with *Program.cs* and *Startup.cs* files.
 - The *.Api* project for the Controllers.  
 
