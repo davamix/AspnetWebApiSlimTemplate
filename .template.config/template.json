@@ -22,6 +22,15 @@
             "defaultValue": "false"
         }
     },
+    "sources":[
+        {
+            "modifiers": [{
+                "exclude":[".vscode/**", "*.png", "*.md"]
+            }
+                
+            ]
+        }
+    ],
     "primaryOutputs": [
         {"path": "Sample.Bootstrap/Sample.Bootstrap.csproj"},
         {"path": "Sample.Api/Sample.Api.csproj"}

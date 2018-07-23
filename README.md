@@ -8,7 +8,7 @@ This template create a solution whith two separated projects:
 
 Also the packages referenced by those projects are the minimum required to run the application instead of make use of the *Microsoft.AspNetCore.App* package.
 
-You can check the .csproj files to know what are thes packages.
+You can check the .csproj files to know what are these packages.
 
 ## How to use it
 
@@ -52,4 +52,3 @@ Restore succeeded.
 - You can run the site with `dotnet run` from MyProject.Bootstrap folder and navigate to https://localhost:5001/api/values
 
 - If all works fine you can see the values on your browser, if you can't see them... fix the errors :-P
-
