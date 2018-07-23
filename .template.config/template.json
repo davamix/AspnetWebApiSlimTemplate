@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Daniel Valcarce",
+    "classifications": [
+        "Web",
+        "WebAPI"
+    ],
+    "identity": "Davamix.AspNetCore.WebApi.Slim",
+    "name": "ASP.NET Core Web API Slim",
+    "shortName": "webapislim",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "Sample",
+    "preferNameDirectory": true,
+    "symbols": {
+        "skipRestore": {
+            "type": "parameter",
+            "datatype": "bool",
+            "description": "If specified, skips the automatic restore of the project on create.",
+            "defaultValue": "false"
+        }
+    },
+    "primaryOutputs": [
+        {"path": "Sample.Bootstrap/Sample.Bootstrap.csproj"},
+        {"path": "Sample.Api/Sample.Api.csproj"}
+    ],
+    "postActions": [
+        {
+            "condition": "(!skipRestore)",
+            "description": "Restore NuGet packages required by this project.",
+            "manualInstructions": [
+                {
+                    "text": "Run 'dotnet restore'"
+                }
+            ],
+            "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+            "continueOnError": true
+        }
+    ]
+}
