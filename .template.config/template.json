@@ -32,8 +32,8 @@
         }
     ],
     "primaryOutputs": [
-        {"path": "Sample.Bootstrap/Sample.Bootstrap.csproj"},
-        {"path": "Sample.Api/Sample.Api.csproj"}
+        {"path": "src/Sample.Bootstrap/Sample.Bootstrap.csproj"},
+        {"path": "src/Sample.Api/Sample.Api.csproj"}
     ],
     "postActions": [
         {

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Bootstrap", "Sample.Bootstrap\Sample.Bootstrap.csproj", "{E3A4C32A-3FEE-44EA-A74C-9E35ABB401D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Bootstrap", "src\Sample.Bootstrap\Sample.Bootstrap.csproj", "{E3A4C32A-3FEE-44EA-A74C-9E35ABB401D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Api", "Sample.Api\Sample.Api.csproj", "{5CF94605-B095-4126-9B19-A6B748552239}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Api", "src\Sample.Api\Sample.Api.csproj", "{5CF94605-B095-4126-9B19-A6B748552239}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
