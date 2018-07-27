@@ -3,7 +3,8 @@
     "author": "Daniel Valcarce",
     "classifications": [
         "Web",
-        "WebAPI"
+        "WebAPI",
+        "Controller"
     ],
     "identity": "Davamix.AspNetCore.WebApi.Slim",
     "name": "ASP.NET Core Web API Slim",
@@ -22,18 +23,27 @@
             "defaultValue": "false"
         }
     },
-    "sources":[
+    "sources": [
         {
-            "modifiers": [{
-                "exclude":[".vscode/**", "*.png", "*.md"]
-            }
-                
+            "modifiers": [
+                {
+                    "exclude": [
+                        ".vscode/**",
+                        "*.png",
+                        "*.md"
+                    ]
+                }
             ]
         }
     ],
+    "placeholderFilename": "tests/file-to-be-ignored.txt",
     "primaryOutputs": [
-        {"path": "src/Sample.Bootstrap/Sample.Bootstrap.csproj"},
-        {"path": "src/Sample.Api/Sample.Api.csproj"}
+        {
+            "path": "src/Sample.Bootstrap/Sample.Bootstrap.csproj"
+        },
+        {
+            "path": "src/Sample.Api/Sample.Api.csproj"
+        }
     ],
     "postActions": [
         {

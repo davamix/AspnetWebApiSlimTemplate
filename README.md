@@ -15,7 +15,7 @@ You can check the .csproj files to know what are these packages.
 - Clone this repository
 - Install the template
 ```
-dotnet new -i ./AspnetWebApiSlimTemplate
+dotnet new -i ./AspnetWebApiSlimTemplate/content
 ```
 - Now you can see a new template in the list called *ASP.NET Core Web API Slim*
 - Create a new project
